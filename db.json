@@ -1,0 +1,73 @@
+{
+  "kids": [
+    {
+      "id": "e31d",
+      "name": "Olivia"
+    },
+    {
+      "id": "775f",
+      "name": "Kevin"
+    },
+    {
+      "id": "05d8",
+      "name": "Alyssa"
+    },
+    {
+      "id": "1323",
+      "name": "Bob"
+    },
+    {
+      "id": "0a0a",
+      "name": "Stuart"
+    },
+    {
+      "id": "372f",
+      "name": "Zoë"
+    }
+  ],
+  "toys": [
+    {
+      "id": "9ab2",
+      "name": "Playstation"
+    },
+    {
+      "id": "cbbd",
+      "name": "LEGO"
+    },
+    {
+      "id": "c58a",
+      "name": "Xbox"
+    },
+    {
+      "id": "6d5d",
+      "name": "Barbie Dream House"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

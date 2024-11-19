@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="santa"><u>Santa's List</u></h1>
+        <div class="input">
+            <div id="kids">
+                <input class="text" type="text" id="name" placeholder="Name" required>
+                <button class="button" id="addChild">Add</button>
+            </div>
+            <div id="toys">
+                <input class="text" type="text" id="toy" placeholder="Toy" required>
+                <button class="button" id="addToy">Add</button>
+            </div>
+        </div>
+        <div class="output">
+            <div class="outputc">
+                <h2>Children</h2>
+                <div id="output"></div>
+            </div>
+            <div class="outputc">
+                <h2>Toys</h2>
+                <div id="output2"></div>
+            </div>
+        </div>
+        <hr>
+        <h2>Saved Wishes</h2>
+        <div class="wish">
+            <div id="localOutput"></div>
+            <img src="images/sleigh.png" width="700px">
+        </div>
+        <script src="fetch.js"></script>
+    </body>
+</html>
